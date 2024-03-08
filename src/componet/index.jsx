@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 function BasicExample() {
   return (
-    <Form className='w-25 p-3 '>
+    <Form className='w-25 p-3 shadow-lg p-3 mb-5 bg-body rounded'>
       <Form.Group className="mb-3 " controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
